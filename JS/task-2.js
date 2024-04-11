@@ -1,5 +1,5 @@
 function formatMessage(message, maxLength) {
-  const strLength = message.Length;
+  const strLength = message.length;
   if (strLength <= maxLength) {
     return message;
   } else {
